@@ -108,3 +108,30 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
+
+.content{
+    font-size: 50px;
+    font-family: Impact;
+    color:aquamarine;
+    margin-left: 500px;
+    float: left; 
+}
+
+.smiles{
+    margin-left: 190px;
+}
+
+.par{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    float: right;
+    margin-right: 550px;
+    color: greenyellow
+}
+
+.support{
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    margin-left: 200px;
+    color: greenyellow
+}
