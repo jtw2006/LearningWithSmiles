@@ -135,3 +135,29 @@ ul li a:hover{
     margin-left: 200px;
     color: greenyellow
 }
+
+@media screen and (max-width:1200px ){
+    /*Normal Screen*/
+
+    .navbar{
+        width: 100px;
+        height: 100px;
+    }
+
+    ul{
+        margin-left: 30px;
+    }
+
+    ul li{
+        margin-left: 60px;
+    }
+
+    ul li a{
+        font-size: 1.6vw;
+    }
+
+    .search{
+        margin-top: 3px;
+        margin-left: 290px;
+    }
+}
