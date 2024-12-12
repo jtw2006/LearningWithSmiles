@@ -110,31 +110,22 @@ ul li a:hover{
 }
 
 .content{
-    font-size: 50px;
+    font-size: 20px;
     font-family: Impact;
     color:aquamarine;
-    margin-left: 500px;
+    margin-left: 900px;
     float: left; 
 }
 
-.smiles{
-    margin-left: 190px;
-}
 
 .par{
-    font-size: 50px;
+    font-size: 17px;
     font-family: 'Franklin Gothic Medium';
-    float: right;
-    margin-right: 550px;
+    float: left;
+    margin-left: 4px;
     color: greenyellow
 }
 
-.support{
-    font-family: 'Franklin Gothic Medium';
-    float: left;
-    margin-left: 200px;
-    color: greenyellow
-}
 
 @media screen and (max-width:1200px ){
     /*Normal Screen*/
@@ -160,4 +151,20 @@ ul li a:hover{
         margin-top: 3px;
         margin-left: 290px;
     }
+
+    .content{
+        width: 100%;
+
+    } 
+
+    .content h1, .content span, .content .smiles{
+        font-size: 4.5vw;
+    }
+
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+    }
+
+    
 }
